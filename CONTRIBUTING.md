@@ -2,7 +2,7 @@
 
 ## Git Workflow
 
-Prior to being merged with `main`, all PRs and checked out branches must merge with `develop`. The `develop` branch will then merge with `main` for any and all updates that add several features or functionality.
+Prior to being merged with `master`, all PRs and checked out branches must merge with `develop`. The `develop` branch will then merge with `master` for any and all updates that add several features or functionality.
 
 Should you choose to work on a feature, check out to a branch for that feature. Branch name should follow the following template: `issue#/brief-description`. For example, for the branch setting up this repository, it was labeled `1/reposetup`.
 
