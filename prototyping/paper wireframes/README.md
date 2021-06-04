@@ -4,11 +4,6 @@ These are the wireframe previews so you don't have to open every one of them. Wr
 
 `<Header />` and `<Sidebar />` are replacements for the, well, header and sidebar seen on the home page.
 
-<style>
-div {
-    text-align: center;
-}
-</style>
 <div>
 <img src = "Login Page.jpg" height=400px></img>
 <img src = "Home Page.jpg" height=400px></img>
