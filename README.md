@@ -14,11 +14,15 @@ This is a list of features for TwitLess and also serves as a sort of "road map" 
 
 ## MVP
 
+Pretty much based solely on wireframes and/or the prototype.
+
 - [ ] Logging in with OAuth and Twitter
 - [ ] Access to your Twitter DMs
-- [ ] Access only to tweets you are mentioned in and the tweet they DIRECTLY reply to
+- [ ] Access only to tweets you are mentioned in and the tweet they DIRECTLY reply to on an active threads page
   - Will not show long threads or anything
 - [ ] Show trending categories and upon clicking you'll be given the top 5 relevant articles from sites such as NYTimes, CNN, etc.
+- [ ] Basic setup for a settings page
+- [ ] Motivational quotes "randomly" generated
 
 ## Far Future
 
