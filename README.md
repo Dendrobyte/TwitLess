@@ -6,7 +6,7 @@ Repository for the TwitLess web/mobile app written in React JS.
 
 # Information
 
-TwitLess is an app created with highlighting the most interactive parts of twitter while removing the aspect of infinite scrolling. Twitter is a great platform for outreach because it allows users to easily get in contact with mutual follows and publicly interact. Since the platform is so large, competiting with it is practically impossible. Thus, TwitLess aims to take those interact parts of Twitter (DMs, mentions) and isolate them within an app that removes the current feed.
+TwitLess is an app created with highlighting the most interactive parts of twitter while removing the aspect of infinite scrolling. Twitter is a great platform for outreach because it allows users to easily get in contact with mutual follows and publicly interact. Since the platform is so large, competiting with it is practically impossible. Thus, TwitLess aims to take those interactive parts of Twitter (DMs, mentions) and isolate them within an app that removes the current feed.
 
 # Features
 
@@ -18,11 +18,10 @@ Pretty much based solely on wireframes and/or the prototype.
 
 - [ ] Logging in with OAuth and Twitter
 - [ ] Access to your Twitter DMs
-- [ ] Access only to tweets you are mentioned in and the tweet they DIRECTLY reply to on an active threads page
-  - Will not show long threads or anything
-- [ ] Show trending categories and upon clicking you'll be given the top 5 relevant articles from sites such as NYTimes, CNN, etc.
+- [ ] Access only to tweets you are mentioned in and responses to your tweets
+- [ ] Show trending categories and with links to popular articles
 - [ ] Basic setup for a settings page
-- [ ] Motivational quotes "randomly" generated
+- [ ] Motivational quotes "randomly" generated on a home page
 
 ## Far Future
 
