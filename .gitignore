@@ -23,3 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 /.github
+
+# prototyping
+/prototyping/prototype/ui_kits
