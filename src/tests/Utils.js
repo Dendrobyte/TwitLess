@@ -2,4 +2,5 @@
 import { expect } from 'chai';
 
 // Set to global
+// eslint-disable-next-line no-undef
 global.expect = expect;
