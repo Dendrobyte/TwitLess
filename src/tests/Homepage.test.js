@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 // Generic test to get us started
 describe('Generic unit test', () => {
     it('should simply be true', () => {
