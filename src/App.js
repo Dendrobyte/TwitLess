@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Welcome to TwitLess... for it has officially hatched!</p>
+        <p>Welcome to TwitLess... If you're seeing this, routing isn't working.</p>
       </header>
     </div>
   );
