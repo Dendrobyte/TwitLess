@@ -1,9 +1,79 @@
+body {
+    /* Change entire body to the dark gray we are using */
+    background-color: #232323;
+}
+
 .logo {
     text-align: center;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 .welcome-text {
     color: #ECECEC;
     font-size: 24px;
+}
+
+.buttons {
+    text-align: center;
+    margin: 32px;
+}
+
+.loginButton, .loginButton:visited, .loginButton:active, .loginButton:focus {
+    background-color: #214283;
+    border-color: #214283;
+}
+
+.loginButton:hover {
+    background-color: #213283;
+    border-color: #ececec;
+}
+
+.loginButtonText {
+    font-size: 16px;
+    color: #ECECEC;
+    text-align: center;
+}
+
+.infoButtonBody {
+    padding: 10px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.qCircleIcon, .qCircleIcon:active, .qCircleIcon:visited, .qCircleIcon:focus {
+    color: #656565;
+}
+
+.qCircleIcon:hover {
+    color: #ECECEC;
+    cursor: pointer;
+}
+
+.infoPopupText {
+    width: 40%;
+    color: #ECECEC;
+    padding: 5px;
+    background-color: #656565;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.infoPopupTextTitle{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.infoPopupTextBody {
+    font-size: 14px;
+    padding: 0px 10px 0px 10px;
+}
+
+/* Error page */
+
+.questionCircleIcon {
+    font-size: 200px;
+    color: #3B88C3;
+    transform: rotate(-8deg);
+    margin-bottom: 40px;
 }
