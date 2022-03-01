@@ -2,7 +2,7 @@
 
 _CI badge here. Tests TBD._
 
-Repository for the TwitLess web/mobile app written with Angular JS (2022).
+Repository for the TwitLess web/mobile app written with Angular JS (2022). You can find all that source and how to run the app locally in the [angular-twitless](/angular-twitless) directory.
 
 # Information
 
