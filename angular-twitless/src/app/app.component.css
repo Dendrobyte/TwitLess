@@ -1,0 +1,39 @@
+.homepage-container {
+    margin: 0px;
+    padding: 0px;
+    background-color: #1A1A1A;
+}
+
+.homepage-centered-container {
+    margin-top: 10vw;
+    text-align: center;
+    color: #ECECEC;
+}
+
+.logo-twitless {
+    width: 200px;
+    margin-bottom: 3vw;
+}
+
+.button-signin {
+    background-color: #214283;
+    color: #ECECEC;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    width: 24vw;
+    margin-top: 2vw;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.logo-twitter-button {
+    width: 32px;
+    margin: 0px 10px;
+    display: inline;
+}
+
+.p-twitter-button{
+    display: inline;
+    margin-bottom: 10px;
+}
