@@ -27,6 +27,22 @@
     display: inline-block;
 }
 
+.button-questionmark-unclicked {
+    margin: 20px;
+    border-radius: 100%;
+    width: 3vw;
+    height: 3vw;
+    background-color: #646464;
+}
+
+.button-questionmark-clicked {
+    margin: 20px;
+    border-radius: 100%;
+    width: 3vw;
+    height: 3vw;
+    background-color: #848484;
+}
+
 .logo-twitter-button {
     width: 32px;
     margin: 0px 10px;
@@ -36,4 +52,23 @@
 .p-twitter-button{
     display: inline;
     margin-bottom: 10px;
+}
+
+.info-bubble {
+    background-color: #848484;
+    width: 30%;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.info-title {
+    color: whitesmoke;
+    font-size: 28px;
+}
+
+.info-text {
+    color: whitesmoke;
+    font-size: 12px;
+    margin: 10px 8%;
 }

@@ -8,7 +8,15 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'TwitLess';
 
+  showInfo: boolean = false;
+  buttonClicked: boolean = false;
+
   public onSigninClick() {
     alert("Heya!");
+  }
+
+  public onHelpClick() {
+    this.showInfo = !this.showInfo;
+    this.buttonClicked = !this.buttonClicked;
   }
 }
