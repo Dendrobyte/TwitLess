@@ -4,6 +4,13 @@ import { ColorTheme, NgxBootstrapIconsModule, questionCircle } from 'ngx-bootstr
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './pages/home/home.component';
+import { MessagesComponent } from './pages/messages/messages.component';
+import { ActivethreadsComponent } from './pages/activethreads/activethreads.component';
+import { IntheloopComponent } from './pages/intheloop/intheloop.component';
+import { SettingsComponent } from './pages/settings/settings.component';
+import { LoginpageComponent } from './loginpage/loginpage.component';
+import { NavbarComponent } from './utils/navbar/navbar.component';
 
 const icons = {
   questionCircle
@@ -11,7 +18,14 @@ const icons = {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    MessagesComponent,
+    ActivethreadsComponent,
+    IntheloopComponent,
+    SettingsComponent,
+    LoginpageComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
