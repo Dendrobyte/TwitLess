@@ -1,32 +1,7 @@
+<!-- TODO: Style navbar and main container styles so they work together -->
+<app-navbar></app-navbar>
 <div class="homepage-container">
-
     <div class="homepage-centered-container">
-        <img alt="TwitLess Bird Emoji" src="../assets/images/blue-bird-emoji.png" class="logo-twitless" />
-        <h2>Welcome to {{ title }}!</h2>
-        <button (click)="onSigninClick()" class="button-signin">
-            <div class="button-signin-content">
-                <img class="logo-twitter-button" alt="Twitter Icon" src="../assets/images/twitter-logo.png">
-                <p class="p-twitter-button">Log in with
-                    Twitter</p>
-            </div>
-        </button><br>
-        <button (click)="onHelpClick()"
-            [ngClass]="{'button-questionmark-unclicked': !buttonClicked, 'button-questionmark-clicked': buttonClicked}"
-            i-bs name="question-circle" height="2vw" width="2vw">
-
-        </button><br>
-        <div *ngIf="showInfo" class="info-bubble">
-            <p class="info-title">Why Only Twitter Login?</p>
-            <p class="info-text">
-                TwitLess uses your Twitter account to show you a minimal versionof Twitter. Thus, we require you to log
-                in with your Twitter account. It also means we don't have to do image verification or handling any
-                data!<br>
-                TwitLess does not track any of your data or store anything beyond simple toggles [PLANNED] in the
-                settings page. How this works and what pages show can be found on the TwitLess repository [LINK?].
-            </p>
-        </div>
-
+        <router-outlet></router-outlet>
     </div>
-
-
 </div>
