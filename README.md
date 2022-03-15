@@ -38,6 +38,7 @@ Pretty much based solely on wireframes and/or the prototype.
 
 - [ ] Mobile app
 - [ ] Support for settings, e.g. dark/light theme
+- [ ] Instagram version "Delaygram" (just DMs and comments on your latest posts) 
 
 # Contributing
 
