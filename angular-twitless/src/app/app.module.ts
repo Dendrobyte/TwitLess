@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ColorTheme, NgxBootstrapIconsModule, questionCircle } from 'ngx-bootstrap-icons';
+import { ColorTheme, NgxBootstrapIconsModule, questionCircle, houseFill, envelope, exclamationLg, graphUpArrow, gearFill } from 'ngx-bootstrap-icons';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,9 +11,15 @@ import { IntheloopComponent } from './pages/intheloop/intheloop.component';
 import { SettingsComponent } from './pages/settings/settings.component';
 import { LoginpageComponent } from './loginpage/loginpage.component';
 import { NavbarComponent } from './utils/navbar/navbar.component';
+import { HeaderComponent } from './utils/header/header.component';
 
 const icons = {
-  questionCircle
+  questionCircle,
+  houseFill,
+  envelope,
+  exclamationLg,
+  graphUpArrow,
+  gearFill
 }
 
 @NgModule({
@@ -25,7 +31,8 @@ const icons = {
     IntheloopComponent,
     SettingsComponent,
     LoginpageComponent,
-    NavbarComponent
+    NavbarComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

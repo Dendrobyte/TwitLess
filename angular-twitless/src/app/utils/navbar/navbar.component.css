@@ -1,0 +1,44 @@
+.navbar-wrapper {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    height: 40vw;
+    width: 6vw;
+}
+
+.navbar-vertical {
+    list-style-type: none;
+    /* TODO: Change to site-wide gray */
+}
+
+.navbar-logo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.navbar-vertical-item {
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.navbar-vertical-icon {
+    display: block;
+    color: #ECECEC;
+}
+
+.navbar-vertical-link {
+    text-decoration: none;
+    color: #ECECEC;
+}
+
+.navbar-vertical-link:visited {
+    color: #ECECEC;
+}
+.navbar-vertical-link:hover {
+    color: #3B88C3;
+}
+
+.navbar-vertical-link:active {
+    color: #3B88C3;
+}
+

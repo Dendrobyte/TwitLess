@@ -5,7 +5,8 @@
 }
 
 .homepage-centered-container {
-    margin-top: 10vw;
+    margin: auto;
     text-align: center;
-    color: #ECECEC;
+    background-color: aqua;
+    width: 70vw;    
 }

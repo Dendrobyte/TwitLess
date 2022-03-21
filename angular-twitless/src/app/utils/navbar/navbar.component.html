@@ -1,11 +1,33 @@
 <div class="navbar-wrapper" style="color:white; position: fixed;">
-    <ul>
-        <li><a routerLink="">[TEMP] Login Page</a></li>
-        <li><a routerLink="home">Home</a></li>
-        <li><a routerLink="messages">Messages</a></li>
-        <li><a routerLink="activethreads">Active Threads</a></li>
-        <li><a routerLink="intheloop">Get in the Loop</a></li>
-        <li><a routerLink="settings">Settings</a></li>
-        <li><a routerLink="nonsense">[TEMP] Page Not Found Test</a></li>
+    <img class="navbar-logo" src="../../../assets/images/blue-bird-emoji.png">
+    <ul class="navbar-vertical">
+        <li class="navbar-vertical-item"><a class="navbar-vertical-link" routerLink="">[TEMP] Login Page</a></li>
+
+        <li class="navbar-vertical-item"><a class="navbar-vertical-link" routerLink="/home">
+                <i-bs name="house-fill" class="navbar-vertical-icon">
+                </i-bs>
+                Home
+            </a></li>
+        <li class="navbar-vertical-item"><a class="navbar-vertical-link" routerLink="/messages">
+                <i-bs name="envelope" class="navbar-vertical-icon">
+                </i-bs>Messages
+            </a></li>
+        <li class="navbar-vertical-item"><a class="navbar-vertical-link" routerLink="/activethreads">
+                <i-bs name="exclamation-lg" class="navbar-vertical-icon">
+                </i-bs>Active Threads
+            </a>
+        </li>
+        <li class="navbar-vertical-item"><a class="navbar-vertical-link" routerLink="/intheloop">
+                <i-bs name="graph-up-arrow" class="navbar-vertical-icon">
+                </i-bs>Get in the Loop
+            </a>
+        </li>
+        <li class="navbar-vertical-item"><a class="navbar-vertical-link" routerLink="/settings">
+                <i-bs name="gear-fill" class="navbar-vertical-icon">
+                </i-bs>Settings
+            </a></li>
+
+        <li class="navbar-vertical-item"><a class="navbar-vertical-link" routerLink="/nonsense">[TEMP] Page Not Found
+                Test</a></li>
     </ul>
 </div>
