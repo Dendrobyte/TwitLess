@@ -4,7 +4,7 @@ _CI badge here. Tests TBD._
 
 [![wakatime](https://wakatime.com/badge/user/b3c7da40-7d14-4723-923e-78388c00e9f7/project/b00bd104-9637-4a0f-bab4-b4e45da033e7.svg)](https://wakatime.com/badge/user/b3c7da40-7d14-4723-923e-78388c00e9f7/project/b00bd104-9637-4a0f-bab4-b4e45da033e7)
 
-Repository for the TwitLess web/mobile app written with Angular JS (2022). You can find all the source and how to run the app locally in the [angular-twitless](/angular-twitless) directory. Please see [the contributing guide](/CONTRIBUTING.md) if you'd like to contribute to the project.
+Repository for the TwitLess web/mobile app written with Angular (2022) and the back-end will be using the Laravel PHP framework. You can find all the source and how to run the app locally in the [angular-twitless](/angular-twitless) directory. Please see [the contributing guide](/CONTRIBUTING.md) if you'd like to contribute to the project.
 
 # Information
 
