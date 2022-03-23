@@ -1,0 +1,44 @@
+.header-wrapper {
+    background-color: #2B2B2B;
+    padding: 10px;
+    display: block;
+}
+
+.header-left {
+    display: inline;
+}
+
+.header-pfp {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.header-loggedin-text {
+
+}
+
+.header-username-text {
+
+}
+
+.header-right {
+    display: inline;
+}
+
+.header-timespent-text {
+
+}
+
+.header-timestamp-text {
+
+}
+
+.header-white-text {
+    color: #ECECEC
+}
+
+.header-blue-text {
+    color: #3B88C3
+}
+

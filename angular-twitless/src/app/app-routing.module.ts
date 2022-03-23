@@ -8,6 +8,7 @@ import { SettingsComponent } from './pages/settings/settings.component';
 import { AppComponent } from './app.component';
 import { LoginpageComponent } from './loginpage/loginpage.component';
 import { NavbarComponent } from './utils/navbar/navbar.component';
+import { HeaderComponent } from './utils/header/header.component';
 
 const routes: Routes = [
   { path: '', component: LoginpageComponent, pathMatch: 'full' },
@@ -18,7 +19,8 @@ const routes: Routes = [
   { path: 'settings', component: SettingsComponent },
   {
     path: 'dev', children: [
-      { path: 'navbar', component: NavbarComponent }
+      { path: 'navbar', component: NavbarComponent },
+      { path: 'header', component: HeaderComponent }
     ]
   }
   // TODO: Page not found route

@@ -1,1 +1,11 @@
-<p>header works!</p>
+<div class="header-wrapper">
+    <div class="header-left">
+        <img class="header-pfp" src='{{ pfpUrl }}'>
+        <p class="header-loggedin-text header-white-text">Logged in as:</p>
+        <p class="header-username-text header-blue-text">@{{ username }}</p>
+    </div>
+    <div class="header-right">
+        <p class="header-timespent-text header-white-text">Logged in as:</p>
+        <p class="header-timestamp-text header-blue-text">{{ timestamp }}</p>
+    </div>
+</div>
