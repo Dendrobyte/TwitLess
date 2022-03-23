@@ -1,33 +1,35 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
 <div class="navbar-wrapper" style="color:white; position: fixed;">
     <img class="navbar-logo" src="../../../assets/images/blue-bird-emoji.png">
     <ul class="navbar-vertical">
         <li class="navbar-vertical-item"><a class="navbar-vertical-link" routerLink="">[TEMP] Login Page</a></li>
 
-        <li class="navbar-vertical-item"><a class="navbar-vertical-link" routerLink="/home">
-                <i-bs name="house-fill" class="navbar-vertical-icon">
-                </i-bs>
+        <li class="navbar-vertical-item"><a class="navbar-vertical-link" routerLinkActive="active" routerLink="/home">
+                <span class="glyphicon glyphicon-home navbar-vertical-icon"></span>
                 Home
             </a></li>
-        <li class="navbar-vertical-item"><a class="navbar-vertical-link" routerLink="/messages">
-                <i-bs name="envelope" class="navbar-vertical-icon">
-                </i-bs>Messages
+        <li class="navbar-vertical-item"><a class="navbar-vertical-link" routerLinkActive="active"
+                routerLink="/messages">
+                <span class="glyphicon glyphicon-send navbar-vertical-icon"></span>
+                Messages
             </a></li>
-        <li class="navbar-vertical-item"><a class="navbar-vertical-link" routerLink="/activethreads">
-                <i-bs name="exclamation-lg" class="navbar-vertical-icon">
-                </i-bs>Active Threads
+        <li class="navbar-vertical-item"><a class="navbar-vertical-link" routerLinkActive="active"
+                routerLink="/activethreads">
+                <span class="glyphicon glyphicon-exclamation-sign navbar-vertical-icon"></span>
+                Active Threads
             </a>
         </li>
-        <li class="navbar-vertical-item"><a class="navbar-vertical-link" routerLink="/intheloop">
-                <i-bs name="graph-up-arrow" class="navbar-vertical-icon">
-                </i-bs>Get in the Loop
+        <li class="navbar-vertical-item"><a class="navbar-vertical-link" routerLinkActive="active"
+                routerLink="/intheloop">
+                <span class="glyphicon glyphicon-bullhorn navbar-vertical-icon"></span>
+                Get in the Loop
             </a>
         </li>
-        <li class="navbar-vertical-item"><a class="navbar-vertical-link" routerLink="/settings">
-                <i-bs name="gear-fill" class="navbar-vertical-icon">
-                </i-bs>Settings
+        <li class="navbar-vertical-item"><a class="navbar-vertical-link" routerLinkActive="active"
+                routerLink="/settings">
+                <span class="glyphicon glyphicon-cog navbar-vertical-icon"></span>
+                Settings
             </a></li>
-
-        <li class="navbar-vertical-item"><a class="navbar-vertical-link" routerLink="/nonsense">[TEMP] Page Not Found
-                Test</a></li>
     </ul>
 </div>

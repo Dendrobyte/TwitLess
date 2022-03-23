@@ -1,5 +1,5 @@
 .navbar-wrapper {
-    background-color: black;
+    background-color: #2B2B2B;
     text-align: center;
     padding: 10px;
     height: 40vw;
@@ -8,7 +8,6 @@
 
 .navbar-vertical {
     list-style-type: none;
-    /* TODO: Change to site-wide gray */
 }
 
 .navbar-logo {
@@ -18,17 +17,22 @@
 
 .navbar-vertical-item {
     font-weight: 600;
-    margin: 20px 0px;
+    margin: 40px 0px;
 }
 
 .navbar-vertical-icon {
     display: block;
-    color: #ECECEC;
+    font-size: 32px;
+    margin: 10px 0px;
 }
 
 .navbar-vertical-link {
     text-decoration: none;
     color: #ECECEC;
+}
+
+.active {
+    color: #3B88C3;
 }
 
 .navbar-vertical-link:visited {

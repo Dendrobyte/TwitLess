@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ColorTheme, NgxBootstrapIconsModule, questionCircle, houseFill, envelope, exclamationLg, graphUpArrow, gearFill } from 'ngx-bootstrap-icons';
+import { ColorTheme, NgxBootstrapIconsModule, questionCircle } from 'ngx-bootstrap-icons';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,13 +13,8 @@ import { LoginpageComponent } from './loginpage/loginpage.component';
 import { NavbarComponent } from './utils/navbar/navbar.component';
 import { HeaderComponent } from './utils/header/header.component';
 
-const icons = {
-  questionCircle,
-  houseFill,
-  envelope,
-  exclamationLg,
-  graphUpArrow,
-  gearFill
+const loginPageIcon = {
+  questionCircle
 }
 
 @NgModule({
@@ -37,9 +32,9 @@ const icons = {
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxBootstrapIconsModule.pick(icons, {
+    NgxBootstrapIconsModule.pick(loginPageIcon, {
       theme: ColorTheme.Info
-    })
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]
