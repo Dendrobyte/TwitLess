@@ -12,6 +12,7 @@ import { SettingsComponent } from './pages/settings/settings.component';
 import { LoginpageComponent } from './loginpage/loginpage.component';
 import { NavbarComponent } from './utils/navbar/navbar.component';
 import { HeaderComponent } from './utils/header/header.component';
+import { FormsModule } from '@angular/forms';
 
 const loginPageIcon = {
   questionCircle
@@ -31,6 +32,7 @@ const loginPageIcon = {
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     NgxBootstrapIconsModule.pick(loginPageIcon, {
       theme: ColorTheme.Info
