@@ -2,36 +2,49 @@
     background-color: #2B2B2B;
     padding: 10px;
     display: block;
+    /* Float the parent so inner elements stick around */
+    float: left;
+    width: 100%;
 }
 
 .header-left {
-    display: inline;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    float: left;
 }
 
 .header-pfp {
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    display: inline-block;
+}
+
+.header-left-text {
+    display: inline-block;
 }
 
 .header-loggedin-text {
-
+    display: block;
 }
 
 .header-username-text {
-
+    display: block;
 }
 
 .header-right {
-    display: inline;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    float: right;
 }
 
 .header-timespent-text {
-
+    
 }
 
 .header-timestamp-text {
-
 }
 
 .header-white-text {
