@@ -7,6 +7,8 @@ import { IntheloopComponent } from './pages/intheloop/intheloop.component';
 import { SettingsComponent } from './pages/settings/settings.component';
 import { AppComponent } from './app.component';
 import { LoginpageComponent } from './loginpage/loginpage.component';
+import { NavbarComponent } from './utils/navbar/navbar.component';
+import { HeaderComponent } from './utils/header/header.component';
 
 const routes: Routes = [
   { path: '', component: LoginpageComponent, pathMatch: 'full' },
@@ -14,7 +16,13 @@ const routes: Routes = [
   { path: 'messages', component: MessagesComponent },
   { path: 'activethreads', component: ActivethreadsComponent },
   { path: 'intheloop', component: IntheloopComponent },
-  { path: 'settings', component: SettingsComponent }
+  { path: 'settings', component: SettingsComponent },
+  {
+    path: 'dev', children: [
+      { path: 'navbar', component: NavbarComponent },
+      { path: 'header', component: HeaderComponent }
+    ]
+  }
   // TODO: Page not found route
 ];
 

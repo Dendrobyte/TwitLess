@@ -11,8 +11,10 @@ import { IntheloopComponent } from './pages/intheloop/intheloop.component';
 import { SettingsComponent } from './pages/settings/settings.component';
 import { LoginpageComponent } from './loginpage/loginpage.component';
 import { NavbarComponent } from './utils/navbar/navbar.component';
+import { HeaderComponent } from './utils/header/header.component';
+import { FormsModule } from '@angular/forms';
 
-const icons = {
+const loginPageIcon = {
   questionCircle
 }
 
@@ -25,14 +27,16 @@ const icons = {
     IntheloopComponent,
     SettingsComponent,
     LoginpageComponent,
-    NavbarComponent
+    NavbarComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
-    NgxBootstrapIconsModule.pick(icons, {
+    NgxBootstrapIconsModule.pick(loginPageIcon, {
       theme: ColorTheme.Info
-    })
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]

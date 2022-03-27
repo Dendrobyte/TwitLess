@@ -1,0 +1,57 @@
+.header-wrapper {
+    background-color: #2B2B2B;
+    padding: 10px;
+    display: block;
+    /* Float the parent so inner elements stick around */
+    float: left;
+    width: 100%;
+}
+
+.header-left {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.header-pfp {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.header-left-text {
+    display: inline-block;
+}
+
+.header-loggedin-text {
+    display: block;
+}
+
+.header-username-text {
+    display: block;
+}
+
+.header-right {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.header-timespent-text {
+    
+}
+
+.header-timestamp-text {
+}
+
+.header-white-text {
+    color: #ECECEC
+}
+
+.header-blue-text {
+    color: #3B88C3
+}
+
