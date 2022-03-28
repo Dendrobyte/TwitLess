@@ -9,6 +9,8 @@ export class IntheloopComponent implements OnInit {
 
   constructor() { }
 
+  bannerTopics = [{ title: "Atharv Gets Masters", hashtag: "poggers" }, { title: "Amorian Wins Life", hashtag: "ammonium" }]
+
   ngOnInit(): void {
   }
 

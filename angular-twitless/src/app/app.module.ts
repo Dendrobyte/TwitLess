@@ -13,6 +13,7 @@ import { LoginpageComponent } from './loginpage/loginpage.component';
 import { NavbarComponent } from './utils/navbar/navbar.component';
 import { HeaderComponent } from './utils/header/header.component';
 import { FormsModule } from '@angular/forms';
+import { BannerComponent } from './intheloop/banner/banner.component';
 
 const loginPageIcon = {
   questionCircle
@@ -28,7 +29,8 @@ const loginPageIcon = {
     SettingsComponent,
     LoginpageComponent,
     NavbarComponent,
-    HeaderComponent
+    HeaderComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

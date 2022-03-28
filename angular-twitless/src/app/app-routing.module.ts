@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { LoginpageComponent } from './loginpage/loginpage.component';
 import { NavbarComponent } from './utils/navbar/navbar.component';
 import { HeaderComponent } from './utils/header/header.component';
+import { BannerComponent } from './intheloop/banner/banner.component';
 
 const routes: Routes = [
   { path: '', component: LoginpageComponent, pathMatch: 'full' },
@@ -20,7 +21,8 @@ const routes: Routes = [
   {
     path: 'dev', children: [
       { path: 'navbar', component: NavbarComponent },
-      { path: 'header', component: HeaderComponent }
+      { path: 'header', component: HeaderComponent },
+      { path: 'loopbanner', component: BannerComponent }
     ]
   }
   // TODO: Page not found route
