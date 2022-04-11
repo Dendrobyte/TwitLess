@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
 import { LoginpageComponent } from './loginpage/loginpage.component';
 import { NavbarComponent } from './utils/navbar/navbar.component';
 import { HeaderComponent } from './utils/header/header.component';
-import { BannerComponent } from './intheloop/banner/banner.component';
+import { BannerComponent } from './pages/intheloop/banner/banner.component';
 
 const routes: Routes = [
   { path: '', component: LoginpageComponent, pathMatch: 'full' },
