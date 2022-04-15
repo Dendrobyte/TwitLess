@@ -51,3 +51,16 @@
     margin-top: 5%;
     font-size: 24px;
 }
+
+.external-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*
+.external-link:visited {}
+
+.external-link:hover {}
+
+.external-link:active {}
+*/

@@ -14,6 +14,7 @@ import { NavbarComponent } from './utils/navbar/navbar.component';
 import { HeaderComponent } from './utils/header/header.component';
 import { FormsModule } from '@angular/forms';
 import { BannerComponent } from './pages/intheloop/banner/banner.component';
+import { MsgPreviewComponent } from './utils/msg-preview/msg-preview.component';
 
 const loginPageIcon = {
   questionCircle
@@ -30,7 +31,8 @@ const loginPageIcon = {
     LoginpageComponent,
     NavbarComponent,
     HeaderComponent,
-    BannerComponent
+    BannerComponent,
+    MsgPreviewComponent
   ],
   imports: [
     BrowserModule,

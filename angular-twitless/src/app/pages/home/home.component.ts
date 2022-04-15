@@ -10,6 +10,17 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    // TODO: Load quotes from somewhere
+  }
+
+  possibleQuotes: string[] = [
+    '"Remember what it is you want your life to be and make every decision in service of that dream"',
+    '"The good things will always be here waiting for you, should you choose to return to them- but what is important now is that satiate your curiosity"'
+  ];
+
+  getQuoteText(): string {
+    let randInd: number = Math.floor(Math.random() * this.possibleQuotes.length);
+    return this.possibleQuotes[randInd];
   }
 
 }

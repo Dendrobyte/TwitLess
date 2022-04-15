@@ -1,0 +1,41 @@
+.quote-banner {
+    font-size: 20px;
+    background-color: aqua;
+    height: 140px;
+    padding: 20px;
+}
+
+.homepage-cols {
+    background-color: #ECECEC;
+    padding: 0px;
+}
+
+.col-header {
+    background-color: #ECECEC;
+    font-size: 16px;
+    color: #1A1A1A;
+    padding: 2px;
+    margin: 0px;
+}
+
+.left-col {
+    background-color: #373737;
+    width: 50%;
+    display: inline-block;
+}
+
+.right-col {
+    background-color: #373737;
+    float: right;
+    width: 50%
+}
+
+.visit-text {
+    color: white;
+}
+
+.notepad {
+    height: 400px;
+    width: 90%;
+    margin: 10px 20px 30px;
+}

@@ -1,2 +1,31 @@
 <app-header></app-header>
-<p>home works!</p>
+<div class="homepage-container">
+    <div class="quote-banner">
+        <p>{{ getQuoteText() }}</p>
+    </div>
+    <div class="homepage-cols">
+
+        <div class="left-col">
+            <div class="col-header">
+                <h3>Latest DMs</h3>
+            </div>
+            <div class="msg-list">
+                <dm-preview username="Mark Bacon" usertag="@Mobkinz78"
+                    message="Yo I just found a trick in premiere that makes a really cool shot." [messageRead]="false">
+                </dm-preview>
+                <dm-preview username="Bark Macon" usertag="@Mibkinz87"
+                    message="Wow imagine using premiere what a dumb world you should use sony vegas."
+                    [messageRead]="true"></dm-preview>
+            </div>
+            <p class="visit-text">Visit the <a href="/messages">Messages Page</a> to see more of your DMs.</p>
+        </div>
+
+        <div class="right-col">
+            <div class="col-header">
+                <h3>Notepad</h3>
+            </div>
+            <textarea class="notepad"></textarea>
+        </div>
+
+    </div>
+</div>

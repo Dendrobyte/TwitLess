@@ -3,8 +3,8 @@
     padding: 10px;
     display: block;
     /* Float the parent so inner elements stick around */
-    float: left;
     width: 100%;
+    height: 6.5vw;
 }
 
 .header-left {
@@ -40,12 +40,9 @@
     float: right;
 }
 
-.header-timespent-text {
-    
-}
+.header-timespent-text {}
 
-.header-timestamp-text {
-}
+.header-timestamp-text {}
 
 .header-white-text {
     color: #ECECEC
@@ -54,4 +51,3 @@
 .header-blue-text {
     color: #3B88C3
 }
-
