@@ -3,7 +3,7 @@ package config
 import "github.com/spf13/viper"
 
 type Config struct {
-	BEARER_TOKEN string `mapstructure:"BEARER_TOKEN`
+	BEARER_TOKEN string `mapstructure:"BEARER_TOKEN"`
 }
 
 func LoadConfig() (config Config, err error) {
