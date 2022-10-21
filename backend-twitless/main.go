@@ -1,45 +1,29 @@
 package main
 
-// Yea that's right, we're doing this in Go now.
-// Laravel felt like it had a bit too much going on and Go is much more practical for me to learn.
-
 import (
 	"fmt"
-	"os"
-	"net/http"
+	"twitless/main/tweets"
+
+	"github.com/gin-gonic/gin"
 )
 
-type Activity struct {
-	description string
-	accessibility float64
-	category string
-	participants int
-	price float64
-}
-
-// Just start with a random API to mess with for now
-var API_URL = "http://www.boredapi.com/api/activity/"
-
-// Redirect all routes based on path here
-func baseHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Println("Base handler route pinged")
-	firstSlash := Index(r.URL.Path[1:])
-	route := r.URL.Path[1:]
-	if (firstSlash != -1) {
-		route = r.URL.Path[1:firstSlash]
-	}
-	if (name == "Exit") {
-		os.Exit(2)
-	} else {
-		fmt.Fprintf(w, "Heya %s!", name)
-	}
-}
+// Core file for the TwitLess backend
 
 func main() {
-	fmt.Println("TwitLess backend now running...")
+	fmt.Println("TwitLess backend starting up...")
+	router := gin.Default()
+	fmt.Println("Now setting up routes...")
+	if key_loaded := tweets.Load_Config(); !key_loaded {
+		fmt.Println("There was an error loading the api key, see log")
+		return
+	}
 
-	// Send all routes to main handler function
-	http.HandleFunc("/", baseHandler)
-	http.ListenAndServe("127.0.0.1:8080", nil)
-	fmt.Println("Running!")
+	// TODO: Write a health check
+	router.GET("/tweets", tweets.GetTweets)
+	router.GET("/tweets/:id", tweets.GetTweetById)
+
+	fmt.Println("And now running router...")
+	router.Run("localhost:8080")
+	fmt.Println("Router running!")
+
 }
