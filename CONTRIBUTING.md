@@ -14,7 +14,7 @@ If you'd like access to the Trello board, contact me `@Mobkinz78` or on [Discord
 
 ## Pull Requests
 
-Please make all changes on a forked version of this repository and make PRs from that forked repository _while maintaining the branch naming scheme._ Always ask to merge with `develop`. When making a PR, please list all functionality that should be tested by an administrator of the repository and provide screenshots (of code, tests, front-end appearances, etc). See [this PR](link_tbd) [Link TBD] for an example.
+Please make all changes on a forked version of this repository and make PRs from that forked repository _while maintaining the branch naming scheme._ Always ask to merge with `develop`. When making a PR, please list all functionality that should be tested by an administrator of the repository and provide screenshots (of code, tests, front-end appearances, etc). See [this PR](https://github.com/Dendrobyte/TwitLess/pull/34) for an example.
 
 Lastly, make sure you give yourself some credit and add yourself to the below list of contributors
 
