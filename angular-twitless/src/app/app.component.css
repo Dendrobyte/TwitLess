@@ -1,0 +1,12 @@
+.homepage-container {
+    margin: 0px;
+    padding: 0px;
+    background-color: #1A1A1A;
+}
+
+.homepage-centered-container {
+    margin: auto;
+    text-align: center;
+    background-color: aqua;
+    width: 70vw;    
+}

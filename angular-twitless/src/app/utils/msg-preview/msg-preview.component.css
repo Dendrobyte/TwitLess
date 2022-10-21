@@ -1,0 +1,37 @@
+.msg-preview-container {
+    width: 100%;
+    padding: 2px 10px;
+    display: inline-block;
+}
+
+.msg-read {
+    background-color: #232323;
+}
+
+.msg-unread {
+    background-color: #1A1A1A;
+}
+
+.username {
+    color: #ECECEC;
+    margin: 0px;
+}
+
+.usertag {
+    color: #3B88C3;
+}
+
+.msgprev {
+    color: #373737;
+}
+
+.msg-preview-icon {
+    float: left;
+    margin-right: 40px;
+}
+
+.msg-preview-text {
+    text-align: left;
+    margin-left: 10px;
+    display: block;
+}
