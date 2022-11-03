@@ -12,6 +12,8 @@ import (
 )
 
 var BEARER_TOKEN string
+var TOKEN string
+var TOKEN_SECRET string
 
 type tweet struct {
 	ID    string `json:"id"`
@@ -35,12 +37,19 @@ func Load_Config() bool {
 	}
 
 	BEARER_TOKEN = config.BEARER_TOKEN
+	TOKEN = config.TOKEN
+	TOKEN_SECRET = config.TOKEN_SECRET
 	fmt.Println("Loaded API key from configuration!")
 	return true
 }
 
 // Get tweets given a particular user -- TODO, obviously
 func GetTweets(c *gin.Context) {
+	id := c.Param("id")
+
+	client := &http.Client{
+		Timeout: time.Second * 10,
+	}
 	c.IndentedJSON(http.StatusOK, tweets_temp)
 }
 

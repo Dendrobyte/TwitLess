@@ -4,6 +4,8 @@ import "github.com/spf13/viper"
 
 type Config struct {
 	BEARER_TOKEN string `mapstructure:"BEARER_TOKEN"`
+	TOKEN        string `mapstructure:"TOKEN"`
+	TOKEN_SECRET string `mapstructure:"TOKEN_SECRET"`
 }
 
 func LoadConfig() (config Config, err error) {
