@@ -43,14 +43,42 @@ func Load_Config() bool {
 	return true
 }
 
+// TODO: This should be moved into a more organized file since it isn't directly related with retrieving tweets (and is used on a higher level)
+func GetUserId(username string) string {
+	url := fmt.Sprintf(`https://api.twitter.com/2/users/by/username/%s`, username)
+	fmt.Println("Ping the API here:", url)
+	// TODO: Implement this particular function
+	return "528537681" // ID for @Mobkinz78, update this to pull the ID from OAuth or whatever
+}
+
 // Get tweets given a particular user -- TODO, obviously
+// TODO: There should be a function on login that stores a user's ID once I get it
+//
+//	Remember how to program: there isn't one backend instance per user!
 func GetTweets(c *gin.Context) {
-	id := c.Param("id")
+	// id := c.Param("id")
+	id := GetUserId("Mobkinz78")
+	fmt.Println("Obtained user id:", id)
+	url := fmt.Sprintf(`https://api.twitter.com/2/users/%s/tweets`, id)
 
 	client := &http.Client{
 		Timeout: time.Second * 10,
 	}
-	c.IndentedJSON(http.StatusOK, tweets_temp)
+
+	req, err := http.NewRequest("GET", url, nil)
+	if err != nil {
+		c.IndentedJSON(http.StatusNotFound, gin.H{"message": "There was an issue with making the get request"})
+	}
+	req.Header.Set("Authorization", "Bearer "+BEARER_TOKEN)
+	resp, err := client.Do(req)
+	if err != nil {
+		c.IndentedJSON(http.StatusNotFound, gin.H{"message": "No tweets found for that user id"})
+	}
+	defer resp.Body.Close()
+	respBin, _ := io.ReadAll(resp.Body)
+	respText := string(respBin)
+	c.JSON(resp.StatusCode, respText)
+	// c.IndentedJSON(http.StatusOK, tweets_temp)
 }
 
 func GetTweetById(c *gin.Context) {
