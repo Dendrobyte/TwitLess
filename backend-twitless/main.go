@@ -17,6 +17,7 @@ func main() {
 		fmt.Println("There was an error loading the api key, see log")
 		return
 	}
+	fmt.Println("Uh oh, I didn't mean to commit this to main!")
 
 	// TODO: Write a health check
 	router.GET("/tweets", tweets.GetTweets)
