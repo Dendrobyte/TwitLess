@@ -1,3 +1,9 @@
+# Project Discontinued
+
+Due to Twitter's current state as of November 2022, this project is being discontinued. I've also lost my curiosity with Angular, however my intrigue in Go remains. **If you have interest in joining me on building various projects and products throughout 2023, please reach out!** I would love to form a small group that holds each other accountable to our commitments (and maybe even dreams).
+
+Should Twitter come back, and should I find the "need" to create a tool that lets me connect with a wide range of people on an existing wide-spread platform, I will do so. I still love this idea, but I'll be continuing on from it.
+
 # TwitLess
 
 _CI badge here. Tests TBD._
